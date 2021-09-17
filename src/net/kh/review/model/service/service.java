@@ -1,5 +1,10 @@
 package net.kh.review.model.service;
 
-public class service {
+import net.kh.review.model.dao.DAO;
 
+public class service {
+	private DAO reviewDAO;
+	public service() {
+		reviewDAO = new DAO();
+	}
 }
